@@ -1,0 +1,113 @@
+.m_TOP-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m_TOP-column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: black
+}
+a:hover {
+    color: #E29578
+}
+
+.topbox {
+    text-align: center;
+    padding: 5px;
+    background-color: #FFDDD2;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+body {
+    background-color: #EDF6F9;
+    font-family: Arial;
+}
+
+#banner {
+    color: #006D77;
+    background-color: #83C5BE;   
+    padding: 11px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.center {
+    border-radius: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #43475b;
+    text-align: center;
+    font-family: Arial;
+}
+
+#toggle{
+    background-color: #FFDDD2;
+    border-radius: 5px;
+    width: 800px;
+    text-align: left;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#in-text {
+    color: #43475b;
+    font-size:large;
+    padding: 10px;
+    text-align: left;
+    display: inline-block;
+    background-color: #FFDDD2;
+    width: auto;
+}
+
+#additional {
+    text-align: center;
+}
+
+.form {
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.filler {
+    margin-bottom: 40px;
+    margin-right: 0px;
+}
+
+#fname, #lname, #email {
+    height: 20px;
+    width: 250px;
+}
+
+.textarea {
+    height: 60px;
+    width: 450px;
+}
+
+#send {
+    height: 30px;
+    width: 65px;
+    background-color: #006D77;
+    color: #EDF6F9;
+    border-color: #006D77;
+}
+
+
+
+
