@@ -1,0 +1,110 @@
+.TOP-row {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.TOP-column {
+    flex: 1; 
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: black
+}
+a:hover {
+    color: #E29578
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+.image-row {
+    display: flex;       
+    justify-content: center; /* Centers images horizontally within the row */
+    gap: 20px;           /* Adds space between images */
+}
+
+.image-row img {
+    border: 1px solid #ddd;  
+    border-radius: 8px;     
+}
+
+.image-row img:hover {
+    transform: scale(1.5);  
+    transition: 0.5s;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+h2, h3 {
+    text-align: center; 
+    padding: 10px 30px; 
+    background-color: #83C5BE; 
+    border-radius: 15px; 
+    color: #006d77; 
+    margin: 10px 0;
+}
+
+h4 {
+    text-align: center;
+    padding: 5px;
+    background-color: #FFDDD2;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.centered {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.breeds-row {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.breed-column {
+    flex: 1; 
+    padding: 10px;
+    text-align: center;
+}
+
+.breed-column img {
+    width: 200px; 
+    height: 120px; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+p {
+    line-height: 1.5; 
+}
+
+.breed-column img:hover {
+    transform:scale(2.0);
+}
+#my_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my_image h1 {
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+
+}
+
+#image_sunset {
+    border-radius: 10px;
+    width: 500px
+
+}
+
