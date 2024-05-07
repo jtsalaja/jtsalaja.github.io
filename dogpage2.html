@@ -95,6 +95,23 @@
             <h5>Feel free to contact us and we will help you with anything you need to know</h5>
         </div>
 
+        <script>
+            var banner2 = document.getElementById("banner2");
+            var originalText = banner2.innerHTML;
+
+            banner2.addEventListener("mouseenter", function() {
+                banner2.innerHTML = "Ask away!";
+            });
+
+            banner2.addEventListener("mouseleave", function() {
+                banner2.innerHTML = originalText;
+            });
+
+            banner2.addEventListener("click", function() {
+                alert("Check out the questions below!");
+            });
+        </script>
+
         <div class="form">
             <form>
             <div id="filler">
