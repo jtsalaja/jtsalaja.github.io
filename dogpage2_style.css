@@ -30,7 +30,7 @@ body {
     font-family: Arial;
 }
 
-#banner {
+#banner1, #banner2 {
     color: #006D77;
     background-color: #83C5BE;   
     padding: 11px;
