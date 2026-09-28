@@ -1,4 +1,5 @@
-# myportfolio
+# My Portfolio
+
 Liz Tsalaja's Portfolio
 
-## This is a test
+## This is a portfolio

@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const skills = [
+	'Python (NumPy, pandas)',
+	'R',
+	'MATLAB',
+	'SQL',
+	'Git',
+	'LaTeX',
+	'Jupyter',
+];
+
+const value = [
+	{
+		title: 'Formalizing processes that are usually left informal',
+		body: "At IncQuery, I formalized all 42 operations in a structured survey-logic language so that unreachable questions and infeasible quotas could be caught automatically rather than by hand. The underlying question, whether a process that 'usually works' can be shown to actually work, is one I keep returning to.",
+	},
+	{
+		title: 'Modeling systems that haven\'t been rigorously described yet',
+		body: "My work tends to start with a real dataset and no existing framework to adapt: an influenza outbreak, transit ridership under a new fare policy, the language firms use when a CEO departs during a financial crisis. My senior thesis, an SIR-based influenza model, and a text-mining study of 3,547 CEO departure announcements all began this way.",
+	},
+	{
+		title: 'Communicating across technical background',
+		body: "I've presented the same research to specialist engineers and a general audience in the same afternoon at IPAM, and I do a version of that weekly tutoring introductory CS and calculus students at different levels. The material doesn't change; how I explain it does.",
+	},
+	{
+		title: 'Coordinating people, not just data',
+		body: "As Co-President of Bates' International Club, I manage a $3,000+ annual budget and have coordinated 35+ teams and 300+ attendees for a single event. As an extern at Analysis Group, I quantified market concentration in a mock merger case to assess antitrust risk. Both involved moving from analysis to a decision other people had to act on.",
+	},
+];
+---
+
+<BaseLayout title="About" description="Research interests, background, and how I approach my work, by Liz Tsalaja.">
+	<h1 class="font-display text-4xl font-medium tracking-tight">About</h1>
+	<p class="mt-5 max-w-2xl text-lg leading-relaxed text-slate-700 dark:text-stone-300">
+		I study math because I like being sure things are true. I've ended up in data because most
+		interesting problems don't arrive with a proof attached, they arrive as a messy dataset and a
+		question nobody's answered rigorously yet. The work below reflects that combination.
+	</p>
+
+	<section class="mt-16">
+		<h2 class="font-display text-2xl font-medium tracking-tight">How I work</h2>
+		<div class="mt-6 divide-y divide-stone-200 dark:divide-stone-800">
+			{value.map((v) => (
+				<div class="py-6 first:pt-0">
+					<p class="font-medium text-slate-900 dark:text-stone-100">{v.title}</p>
+					<p class="mt-2 max-w-2xl text-slate-600 dark:text-stone-400">{v.body}</p>
+				</div>
+			))}
+		</div>
+	</section>
+
+	<section class="mt-16">
+		<h2 class="font-display text-2xl font-medium tracking-tight">Skills</h2>
+		<p class="mt-4 max-w-2xl text-slate-600 dark:text-stone-400">
+			{skills.join(' · ')}
+		</p>
+	</section>
+</BaseLayout>
