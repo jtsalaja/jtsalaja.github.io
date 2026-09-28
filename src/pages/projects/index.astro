@@ -19,9 +19,10 @@ const projects = (await getCollection('projects')).sort((a, b) => {
 				href={`/projects/${project.id}/`}
 				class="group block py-7 first:pt-0"
 			>
-				<p class="font-display text-2xl font-medium text-slate-900 group-hover:text-amber-800 dark:text-stone-100 dark:group-hover:text-amber-400">
+				<p class="font-display text-2xl font-medium text-slate-900 group-hover:text-blue-700 dark:text-stone-100 dark:group-hover:text-blue-400">
 					{project.data.title}
 					{project.data.featured && <span class="ml-2 align-middle text-sm font-sans italic font-normal text-slate-400 dark:text-stone-500">featured</span>}
+					{project.data.pdfUrl && <span class="ml-2 align-middle text-sm font-sans italic font-normal text-slate-400 dark:text-stone-500">paper (PDF)</span>}
 				</p>
 				<p class="mt-2 max-w-2xl text-slate-600 dark:text-stone-400">{project.data.description}</p>
 				<p class="mt-2 text-sm italic text-slate-400 dark:text-stone-500">{project.data.stack.join(' · ')}</p>

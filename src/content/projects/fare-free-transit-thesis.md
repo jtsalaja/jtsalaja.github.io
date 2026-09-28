@@ -15,3 +15,7 @@ My senior thesis, currently in progress. I'm adapting compartmental modeling, th
 When a transit system eliminates fares, does ridership grow because new people start riding, or because existing riders simply ride more often? Distinguishing between these two mechanisms matters for how cities evaluate whether fare elimination is working as intended.
 
 *More findings to come as the thesis develops.*
+
+## Origin
+
+This thesis grew out of an earlier [critical analysis of Tallinn's fare-free transit programme](/projects/tallinn-fare-free-transit/), where I found that ridership gains were consistently claimed as evidence of success without ever being decomposed into new riders versus more frequent trips. This thesis fills that gap quantitatively.
