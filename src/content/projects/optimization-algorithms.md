@@ -1,6 +1,6 @@
 ---
 title: "Classical Methods in Optimization: An Exploration"
-description: "Implemented six classical optimization algorithms in Python and stress-tested them on 2D landscapes with saddle points and multiple minima to see where each one breaks."
+description: "Implemented six classical optimization algorithms in Python and explored how they behave on 1D and 2D functions with saddle points and multiple minima."
 date: 2026-09-28
 stack: ["Python", "NumPy", "SciPy", "Optimization"]
 repoUrl: "https://github.com/jtsalaja/evol-comp"
